@@ -43,7 +43,7 @@ def main(args):
             else:
                 print(f'{password_in_line} Password was not Compromised')
     
-    return print("Done!")
+    return "Done!"
 
 if __name__ == '__main__' :
-    main(sys.argv[1])
+    sys.exit(main(sys.argv[1]))
